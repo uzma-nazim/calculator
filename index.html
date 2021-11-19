@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=M+PLUS+1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Calculator</h1>
+
+
+
+
+    <section class=" ">
+
+
+
+        <div class="input">
+            <input type="text" placeholder="0" id="myinput">
+        </div>
+
+        <div class="smaall">
+            <div class="">
+
+                <button id="color3" onclick="oneclear()" class="btn">C</button>
+                <button onclick="log()" class="btn">Log</button>
+                <button onclick="get('(')" class="btn">(</button>
+                <button onclick="get(')')" class="btn">)</button>
+                <button onclick="get('%')" class="btn">%</button>
+                <button id="color" onclick="clearAll()" class="btn">AC</button>
+            </div>
+
+            <div class="">
+
+                <button onclick="cos()" class="btn">cos</button>
+                <button onclick="sqare()" class="btn"><i class="fas fa-square-root-alt"></i></button>
+                <button onclick="get('7')" class="btn">7</button>
+                <button onclick="get('8')" class="btn">8</button>
+                <button onclick="get('9')" class="btn">9</button>
+                <button onclick="get('/')" class="btn"><i class="fas fa-divide"></i></button>
+            </div>
+
+            <div class="">
+
+                <button onclick="sin()" class="btn">sin</button>
+                <button onclick="power()" class="btn">x<sup>2</sup></button>
+                <button onclick="get('4')" class="btn">4</button>
+                <button onclick="get('5')" class="btn">5</button>
+                <button onclick="get('6')" class="btn">6</button>
+                <button onclick="get('*')" class="btn">x</button>
+            </div>
+
+            <div class="">
+
+                <button onclick="tan()" class="btn">tan</button>
+                <button onclick="cube()" class="btn">x<sup>3</sup></button>
+                <button onclick="get('1')" class="btn">1</button>
+                <button onclick="get('2')" class="btn">2</button>
+                <button onclick="get('3')" class="btn">3</button>
+                <button onclick="get('-')" class="btn">-</button>
+            </div>
+            <div class="">
+
+                <button onclick=" pai()" class="btn">π</button>
+                <button onclick="get('0')" class="btn">0</button>
+                <button onclick="get(',')" class="btn">,</button>
+                <button onclick="get('.')" class="btn">.</button>
+                <button id="color2" onclick="allResult()" class="btn">=</button>
+                <button onclick="get('+')" class="btn">+</button>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
